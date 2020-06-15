@@ -37,7 +37,7 @@ class afVoucherTest extends Plugin
 
 				$view->addTemplateDir($this->getPath() . '/Resources/views/');
 
-				dump($this->getPath() . '/Resources/views');
+				//dump($this->getPath() . '/Resources/views');
 				$view->assign('afVouchers', $vouchers);
 		}
 
